@@ -5,7 +5,7 @@ int main() {
 
   Engenheiro eng1;
   eng1.nome = "Joao Snow";
-  eng1.salarioHora = 35;
+  eng1.setSalario(35);
   eng1.projetos = 3; 
   std::cout << "Nome: " << eng1.nome << std::endl;
   std::cout << "Salario Mes: " << eng1.pagamentoMes(9.5) << std::endl;
@@ -14,7 +14,7 @@ int main() {
   
   Engenheiro eng2;
   eng2.nome = "Daniela Targaryen";
-  eng2.salarioHora = 30;
+  eng2.setSalario(30);
   eng2.projetos = 1; 
   std::cout << "Nome: " << eng2.nome << std::endl;
   std::cout << "Salario Mes: " << eng2.pagamentoMes(8) << std::endl;
@@ -23,7 +23,7 @@ int main() {
   
   Engenheiro eng3;
   eng3.nome = "Bruno Stark";
-  eng3.salarioHora = 30;
+  eng3.setSalario(30);
   eng3.projetos = 2; 
   std::cout << "Nome: " << eng3.nome << std::endl;
   std::cout << "Salario Mes: " << eng3.pagamentoMes(8) << std::endl;
@@ -33,7 +33,7 @@ int main() {
   
   Vendedor vend1;
   vend1.nome = "Tonho Lannister";
-  vend1.salarioHora = 20;
+  vend1.setSalario(20);
   vend1.quotaMensalVendas = 5000;
   
   std::cout << "Nome: " << vend1.nome << std::endl;
@@ -43,7 +43,7 @@ int main() {
   
   Vendedor vend2;
   vend2.nome = "Jose Mormont";
-  vend2.salarioHora = 25;
+  vend2.setSalario(25);
   vend2.quotaMensalVendas = 3000;
   
   std::cout << "Nome: " << vend2.nome << std::endl;
@@ -53,7 +53,7 @@ int main() {
 	
   Vendedor vend3;
   vend3.nome = "Sonia Stark";
-  vend3.salarioHora = 30;
+  vend3.setSalario(30);
   vend3.quotaMensalVendas = 4000;
   
   std::cout << "Nome: " << vend3.nome << std::endl;
